@@ -1,6 +1,7 @@
 package net.fritz.exodus;
 
 import com.mojang.logging.LogUtils;
+import net.fritz.exodus.block.ModBlocks;
 import net.fritz.exodus.item.ModCreativeModeTabs;
 import net.fritz.exodus.item.ModItems;
 import net.minecraft.client.Minecraft;
@@ -32,6 +33,7 @@ public class Exodus {
 
         ModItems.register(modEventBus);
         ModCreativeModeTabs.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);

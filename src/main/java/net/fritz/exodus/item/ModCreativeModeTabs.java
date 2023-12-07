@@ -1,6 +1,7 @@
 package net.fritz.exodus.item;
 
 import net.fritz.exodus.Exodus;
+import net.fritz.exodus.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -18,7 +19,18 @@ public class ModCreativeModeTabs {
                     .displayItems((displayParameters, output) -> {
                         output.accept(ModItems.RAW_NICKEL.get());
                         output.accept(ModItems.NICKEL_INGOT.get());
+
+                        output.accept(ModItems.RAW_TIN.get());
+                        output.accept(ModItems.TIN_INGOT.get());
+
                         output.accept(ModItems.BRONZE_BLEND.get());
+                        output.accept(ModItems.BRONZE_INGOT.get());
+
+                        output.accept(ModItems.RUBBER.get());
+                        output.accept(ModItems.SILICON.get());
+
+                        output.accept(ModBlocks.NICKEL_BLOCK.get());
+
                     }).build());
 
 

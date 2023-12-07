@@ -1,11 +1,18 @@
 {
   "item.exodus.raw_nickel": "Raw Nickel",
   "item.exodus.nickel_ingot": "Nickel Ingot",
+
+  "item.exodus.raw_tin": "Raw Tin",
+  "item.exodus.tin_ingot": "Tin Ingot",
+
   "item.exodus.bronze_blend": "Bronze Blend",
+  "item.exodus.bronze_ingot": "Bronze Ingot",
+
+  "item.exodus.rubber": "Rubber",
+  "item.exodus.silicon": "Silicon",
 
 
-
-
+"block.exodus.nickel_block": "Block of Nickel",
 
 
 
