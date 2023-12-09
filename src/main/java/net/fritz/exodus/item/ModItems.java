@@ -38,8 +38,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
 
 
-
-
+    public static final RegistryObject<Item> TREE_SAP = ITEMS.register("tree_sap",
+            () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> RUBBER = ITEMS.register("rubber",
             () -> new Item(new Item.Properties()));
@@ -51,6 +51,9 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> LITHIUM = ITEMS.register("lithium",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> SOLAR_PANEL_ITEM = ITEMS.register("solar_panel_item",
             () -> new Item(new Item.Properties()));
 
 

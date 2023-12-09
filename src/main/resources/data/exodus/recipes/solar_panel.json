@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "exodus:solar_panel_item"
+    },
+    "C": {
+      "item": "exodus:copper_wire"
+    },
+    "X": {
+      "item": "exodus:machine_block"
+    },
+    "Y": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "###",
+    "CXC",
+    "YYY"
+  ],
+  "result": {
+    "count": 1,
+    "item": "exodus:solar_panel"
+  },
+  "show_notification": true
+}

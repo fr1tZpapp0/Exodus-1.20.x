@@ -26,13 +26,16 @@
   "item.exodus.gold_wire": "Gold Wire",
   "item.exodus.diamond_wire": "Diamond Wire",
 
+  "item.exodus.solar_panel_item": "Solar Panel",
 
 
 "block.exodus.nickel_block": "Block of Nickel",
 "block.exodus.machine_block": "Machine Block",
 
+  "block.exodus.solar_panel": "Solar Panel",
 
 
   "creativetab.exodus_tab": "Exodus: Items",
-  "creativetab.exodus_block_tab": "Exodus: Blocks"
+  "creativetab.exodus_block_tab": "Exodus: Blocks",
+  "creativetab.exodus_machine_tab": "Exodus: Machines"
 }

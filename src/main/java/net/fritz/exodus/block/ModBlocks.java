@@ -1,11 +1,14 @@
 package net.fritz.exodus.block;
 
 import net.fritz.exodus.Exodus;
+import net.fritz.exodus.block.custom.SolarPanel;
 import net.fritz.exodus.item.ModItems;
+import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -22,6 +25,20 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> MACHINE_BLOCK = registerBlock("machine_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+
+
+    public static final RegistryObject<Block> SOLAR_PANEL = registerBlock("solar_panel",
+            () -> new SolarPanel(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+
+
+    public static final RegistryObject<Block> TIN_ORE = registerBlock("tin_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
+                    .strength(5f).requiresCorrectToolForDrops(), UniformInt.of(2, 5)));
+
+    public static final RegistryObject<Block> DEEPSLATE_TIN_ORE = registerBlock("deepslate_tin_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE)
+                    .strength(5f).requiresCorrectToolForDrops(), UniformInt.of(2, 5)));
+
 
 
 

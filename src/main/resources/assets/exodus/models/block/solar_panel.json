@@ -1,0 +1,9 @@
+{
+  "parent": "block/orientable_with_bottom",
+  "textures": {
+    "top": "exodus:block/solar_panel_top",
+    "side": "exodus:block/solar_panel",
+    "front": "exodus:block/solar_panel",
+    "bottom": "exodus:block/solar_panel"
+  }
+}

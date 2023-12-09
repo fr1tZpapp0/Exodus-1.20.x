@@ -39,7 +39,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.COPPER_WIRE.get());
                         output.accept(ModItems.GOLD_WIRE.get());
                         output.accept(ModItems.DIAMOND_WIRE.get());
-
+                        output.accept(ModItems.SOLAR_PANEL_ITEM.get());
 
                         output.accept(ModItems.BASIC_BATTERY.get());
                         output.accept(ModItems.MEDIUM_BATTERY.get());
@@ -53,10 +53,20 @@ public class ModCreativeModeTabs {
                     .displayItems((displayParameters, output) -> {
 
                         output.accept(ModBlocks.NICKEL_BLOCK.get());
-                        output.accept(ModBlocks.MACHINE_BLOCK.get());
+                        output.accept(ModBlocks.TIN_ORE.get());
+                        output.accept(ModBlocks.DEEPSLATE_TIN_ORE.get());
 
                     }).build());
 
+    public static final RegistryObject<CreativeModeTab> EXODUS_MACHINE_TAB = CREATIVE_MODE_TABS.register("exodus_machine_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.SOLAR_PANEL.get()))
+                    .title(Component.translatable("creativetab.exodus_machine_tab"))
+                    .displayItems((displayParameters, output) -> {
+
+                        output.accept(ModBlocks.MACHINE_BLOCK.get());
+                        output.accept(ModBlocks.SOLAR_PANEL.get());
+
+                    }).build());
 
 
     public static void register(IEventBus eventBus) {
