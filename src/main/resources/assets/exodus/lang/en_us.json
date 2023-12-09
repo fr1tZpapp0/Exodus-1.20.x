@@ -16,6 +16,7 @@
   "item.exodus.industrial_diamond": "Industrial Diamond",
   "item.exodus.lithium": "Lithium",
   "item.exodus.steel_ingot": "Steel Ingot",
+  "item.exodus.tree_sap": "Tree Sap",
 
   "item.exodus.basic_battery": "Basic Battery",
   "item.exodus.medium_battery": "Medium Battery",
@@ -29,10 +30,13 @@
   "item.exodus.solar_panel_item": "Solar Panel",
 
 
-"block.exodus.nickel_block": "Block of Nickel",
-"block.exodus.machine_block": "Machine Block",
+  "block.exodus.nickel_block": "Block of Nickel",
+  "block.exodus.tin_ore": "Tin Ore",
+  "block.exodus.deepslate_tin_ore": "Deepslate Tin Ore",
+  "block.exodus.machine_block": "Machine Block",
 
   "block.exodus.solar_panel": "Solar Panel",
+  "block.exodus.redstone_furnace": "Redstone Furnace",
 
 
   "creativetab.exodus_tab": "Exodus: Items",

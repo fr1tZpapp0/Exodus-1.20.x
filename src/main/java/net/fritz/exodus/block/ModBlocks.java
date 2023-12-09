@@ -1,6 +1,7 @@
 package net.fritz.exodus.block;
 
 import net.fritz.exodus.Exodus;
+import net.fritz.exodus.block.custom.RedstoneFurnace;
 import net.fritz.exodus.block.custom.SolarPanel;
 import net.fritz.exodus.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -27,8 +28,18 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
 
 
+
+
+
+
     public static final RegistryObject<Block> SOLAR_PANEL = registerBlock("solar_panel",
             () -> new SolarPanel(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+
+    public static final RegistryObject<Block> REDSTONE_FURNACE = registerBlock("redstone_furnace",
+            () -> new RedstoneFurnace(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+
+
+
 
 
     public static final RegistryObject<Block> TIN_ORE = registerBlock("tin_ore",

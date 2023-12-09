@@ -31,6 +31,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.BRONZE_INGOT.get());
 
                         output.accept(ModItems.RUBBER.get());
+                        output.accept(ModItems.TREE_SAP.get());
                         output.accept(ModItems.SILICON.get());
                         output.accept(ModItems.INDUSTRIAL_DIAMOND.get());
                         output.accept(ModItems.LITHIUM.get());
@@ -65,6 +66,7 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModBlocks.MACHINE_BLOCK.get());
                         output.accept(ModBlocks.SOLAR_PANEL.get());
+                        output.accept(ModBlocks.REDSTONE_FURNACE.get());
 
                     }).build());
 
