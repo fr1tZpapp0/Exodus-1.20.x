@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "cable",
+  "ingredients": [
+    {
+      "item": "exodus:copper_wire"
+    },
+    {
+      "item": "exodus:rubber"
+    }
+  ],
+  "result": {
+    "count": 6,
+    "item": "exodus:copper_cable"
+  }
+}

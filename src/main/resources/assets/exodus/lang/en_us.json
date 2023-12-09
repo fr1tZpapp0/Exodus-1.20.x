@@ -33,10 +33,23 @@
   "block.exodus.nickel_block": "Block of Nickel",
   "block.exodus.tin_ore": "Tin Ore",
   "block.exodus.deepslate_tin_ore": "Deepslate Tin Ore",
+
+  "block.exodus.nickel_ore": "Nickel Ore",
+  "block.exodus.deepslate_nickel_ore": "Deepslate Nickel Ore",
+
+  "block.exodus.aluminum_ore": "Aluminum Ore",
+  "block.exodus.deepslate_aluminum_ore": "Deepslate Aluminum Ore",
+
+
+
   "block.exodus.machine_block": "Machine Block",
 
   "block.exodus.solar_panel": "Solar Panel",
   "block.exodus.redstone_furnace": "Redstone Furnace",
+
+  "block.exodus.copper_cable": "Copper Cable",
+  "block.exodus.gold_cable": "Gold Cable",
+  "block.exodus.diamond_cable": "Diamond Cable",
 
 
   "creativetab.exodus_tab": "Exodus: Items",

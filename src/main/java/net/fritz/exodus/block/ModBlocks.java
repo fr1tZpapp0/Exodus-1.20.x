@@ -1,6 +1,7 @@
 package net.fritz.exodus.block;
 
 import net.fritz.exodus.Exodus;
+import net.fritz.exodus.block.custom.CopperCable;
 import net.fritz.exodus.block.custom.RedstoneFurnace;
 import net.fritz.exodus.block.custom.SolarPanel;
 import net.fritz.exodus.item.ModItems;
@@ -40,6 +41,14 @@ public class ModBlocks {
             () -> new RedstoneFurnace(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
 
 
+    public static final RegistryObject<Block> COPPER_CABLE = registerBlock("copper_cable",
+            () -> new CopperCable(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)));
+
+    public static final RegistryObject<Block> GOLD_CABLE = registerBlock("gold_cable",
+            () -> new CopperCable(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)));
+
+    public static final RegistryObject<Block> DIAMOND_CABLE = registerBlock("diamond_cable",
+            () -> new CopperCable(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)));
 
 
 
@@ -51,6 +60,23 @@ public class ModBlocks {
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE)
                     .strength(5f).requiresCorrectToolForDrops(), UniformInt.of(2, 5)));
 
+
+    public static final RegistryObject<Block> NICKEL_ORE = registerBlock("nickel_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
+                    .strength(5f).requiresCorrectToolForDrops(), UniformInt.of(2, 5)));
+
+    public static final RegistryObject<Block> DEEPSLATE_NICKEL_ORE = registerBlock("deepslate_nickel_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE)
+                    .strength(5f).requiresCorrectToolForDrops(), UniformInt.of(2, 5)));
+
+
+    public static final RegistryObject<Block> ALUMINUM_ORE = registerBlock("aluminum_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
+                    .strength(5f).requiresCorrectToolForDrops(), UniformInt.of(2, 5)));
+
+    public static final RegistryObject<Block> DEEPSLATE_ALUMINUM_ORE = registerBlock("deepslate_aluminum_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE)
+                    .strength(5f).requiresCorrectToolForDrops(), UniformInt.of(2, 5)));
 
 
 

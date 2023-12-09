@@ -54,8 +54,14 @@ public class ModCreativeModeTabs {
                     .displayItems((displayParameters, output) -> {
 
                         output.accept(ModBlocks.NICKEL_BLOCK.get());
+                        output.accept(ModBlocks.NICKEL_ORE.get());
+                        output.accept(ModBlocks.DEEPSLATE_NICKEL_ORE.get());
+
                         output.accept(ModBlocks.TIN_ORE.get());
                         output.accept(ModBlocks.DEEPSLATE_TIN_ORE.get());
+
+                        output.accept(ModBlocks.ALUMINUM_ORE.get());
+                        output.accept(ModBlocks.DEEPSLATE_ALUMINUM_ORE.get());
 
                     }).build());
 
@@ -67,6 +73,9 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.MACHINE_BLOCK.get());
                         output.accept(ModBlocks.SOLAR_PANEL.get());
                         output.accept(ModBlocks.REDSTONE_FURNACE.get());
+                        output.accept(ModBlocks.COPPER_CABLE.get());
+                        output.accept(ModBlocks.GOLD_CABLE.get());
+                        output.accept(ModBlocks.DIAMOND_CABLE.get());
 
                     }).build());
 

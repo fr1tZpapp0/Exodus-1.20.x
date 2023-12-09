@@ -1,0 +1,11 @@
+{
+  "type": "exodus:redstone_furnace",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "tin_ingot",
+  "ingredient": {
+    "item": "exodus:tin_ore"
+  },
+  "result": "exodus:tin_ingot"
+}

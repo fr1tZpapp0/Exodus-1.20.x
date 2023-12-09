@@ -1,6 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "misc",
+  "group": "wire",
   "key": {
     "#": {
       "item": "minecraft:gold_ingot"
