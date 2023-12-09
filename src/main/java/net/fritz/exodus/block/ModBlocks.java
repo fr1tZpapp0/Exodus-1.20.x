@@ -1,9 +1,7 @@
 package net.fritz.exodus.block;
 
 import net.fritz.exodus.Exodus;
-import net.fritz.exodus.block.custom.CopperCable;
-import net.fritz.exodus.block.custom.RedstoneFurnace;
-import net.fritz.exodus.block.custom.SolarPanel;
+import net.fritz.exodus.block.custom.*;
 import net.fritz.exodus.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -39,6 +37,13 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> REDSTONE_FURNACE = registerBlock("redstone_furnace",
             () -> new RedstoneFurnace(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+    public static final RegistryObject<Block> COAL_GENERATOR = registerBlock("coal_generator",
+            () -> new CoalGenerator(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+
+    public static final RegistryObject<Block> COMPRESSOR = registerBlock("compressor",
+            () -> new Compressor(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+
+
 
 
     public static final RegistryObject<Block> COPPER_CABLE = registerBlock("copper_cable",

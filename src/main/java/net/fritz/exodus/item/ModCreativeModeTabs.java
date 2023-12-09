@@ -73,6 +73,9 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.MACHINE_BLOCK.get());
                         output.accept(ModBlocks.SOLAR_PANEL.get());
                         output.accept(ModBlocks.REDSTONE_FURNACE.get());
+                        output.accept(ModBlocks.COAL_GENERATOR.get());
+                        output.accept(ModBlocks.COMPRESSOR.get());
+
                         output.accept(ModBlocks.COPPER_CABLE.get());
                         output.accept(ModBlocks.GOLD_CABLE.get());
                         output.accept(ModBlocks.DIAMOND_CABLE.get());

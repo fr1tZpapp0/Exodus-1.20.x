@@ -46,6 +46,8 @@
 
   "block.exodus.solar_panel": "Solar Panel",
   "block.exodus.redstone_furnace": "Redstone Furnace",
+  "block.exodus.coal_generator": "Coal Engine",
+  "block.exodus.compressor": "Compressor",
 
   "block.exodus.copper_cable": "Copper Cable",
   "block.exodus.gold_cable": "Gold Cable",

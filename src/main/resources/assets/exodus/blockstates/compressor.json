@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "exodus:block/compressor",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "exodus:block/compressor"
+    },
+    "facing=south": {
+      "model": "exodus:block/compressor",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "exodus:block/compressor",
+      "y": 270
+    }
+  }
+}
