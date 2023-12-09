@@ -5,16 +5,34 @@
   "item.exodus.raw_tin": "Raw Tin",
   "item.exodus.tin_ingot": "Tin Ingot",
 
+  "item.exodus.raw_aluminum": "Raw Aluminum",
+  "item.exodus.aluminum_ingot": "Aluminum Ingot",
+
   "item.exodus.bronze_blend": "Bronze Blend",
   "item.exodus.bronze_ingot": "Bronze Ingot",
 
   "item.exodus.rubber": "Rubber",
   "item.exodus.silicon": "Silicon",
+  "item.exodus.industrial_diamond": "Industrial Diamond",
+  "item.exodus.lithium": "Lithium",
+  "item.exodus.steel_ingot": "Steel Ingot",
+
+  "item.exodus.basic_battery": "Basic Battery",
+  "item.exodus.medium_battery": "Medium Battery",
+  "item.exodus.advanced_battery": "Advanced Battery",
+
+  "item.exodus.redstone_coil": "Redstone Coil",
+  "item.exodus.copper_wire": "Copper Wire",
+  "item.exodus.gold_wire": "Gold Wire",
+  "item.exodus.diamond_wire": "Diamond Wire",
+
 
 
 "block.exodus.nickel_block": "Block of Nickel",
+"block.exodus.machine_block": "Machine Block",
 
 
 
-  "creativetab.exodus_tab": "Exodus"
+  "creativetab.exodus_tab": "Exodus: Items",
+  "creativetab.exodus_block_tab": "Exodus: Blocks"
 }

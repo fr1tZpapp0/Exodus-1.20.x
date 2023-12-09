@@ -20,6 +20,10 @@ public class ModBlocks {
     public static final RegistryObject<Block> NICKEL_BLOCK = registerBlock("nickel_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
 
+    public static final RegistryObject<Block> MACHINE_BLOCK = registerBlock("machine_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+
+
 
 
 
