@@ -2,9 +2,14 @@ package net.fritz.exodus;
 
 import com.mojang.logging.LogUtils;
 import net.fritz.exodus.block.ModBlocks;
+import net.fritz.exodus.block.entity.ModBlockEntities;
 import net.fritz.exodus.item.ModCreativeModeTabs;
 import net.fritz.exodus.item.ModItems;
+import net.fritz.exodus.recipe.ModRecipes;
+import net.fritz.exodus.screen.ModMenuTypes;
+import net.fritz.exodus.screen.RedstoneFurnaceScreen;
 import net.minecraft.client.Minecraft;
+import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -34,6 +39,10 @@ public class Exodus {
         ModItems.register(modEventBus);
         ModCreativeModeTabs.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModBlockEntities.register(modEventBus);
+        ModMenuTypes.register(modEventBus);
+        ModRecipes.register(modEventBus);
+
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
@@ -72,11 +81,10 @@ public class Exodus {
     public static class ClientModEvents
     {
         @SubscribeEvent
-        public static void onClientSetup(FMLClientSetupEvent event)
-        {
-            // Some client setup code
-            LOGGER.info("HELLO FROM CLIENT SETUP");
-            LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
+        public static void onClientSetup(FMLClientSetupEvent event) {
+            event.enqueueWork(() -> {
+                MenuScreens.register(ModMenuTypes.REDSTONE_FURNACE_MENU.get(), RedstoneFurnaceScreen::new);
+            });
         }
     }
 }
