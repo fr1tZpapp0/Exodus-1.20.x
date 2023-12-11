@@ -26,10 +26,12 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.ALUMINUM_ORE);
         blockWithItem(ModBlocks.TIN_ORE);
         blockWithItem(ModBlocks.NICKEL_ORE);
+        blockWithItem(ModBlocks.LITHIUM_ORE);
 
         blockWithItem(ModBlocks.DEEPSLATE_ALUMINUM_ORE);
         blockWithItem(ModBlocks.DEEPSLATE_NICKEL_ORE);
         blockWithItem(ModBlocks.DEEPSLATE_TIN_ORE);
+        blockWithItem(ModBlocks.DEEPSLATE_LITHIUM_ORE);
 
     }
 

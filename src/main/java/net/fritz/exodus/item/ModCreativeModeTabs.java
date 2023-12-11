@@ -36,6 +36,13 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.INDUSTRIAL_DIAMOND.get());
                         output.accept(ModItems.LITHIUM.get());
 
+                        output.accept(ModItems.ALUMINUM_DUST.get());
+                        output.accept(ModItems.TIN_DUST.get());
+                        output.accept(ModItems.NICKEL_DUST.get());
+                        output.accept(ModItems.IRON_DUST.get());
+                        output.accept(ModItems.GOLD_DUST.get());
+                        output.accept(ModItems.COPPER_DUST.get());
+
                         output.accept(ModItems.REDSTONE_COIL.get());
                         output.accept(ModItems.COPPER_WIRE.get());
                         output.accept(ModItems.GOLD_WIRE.get());
@@ -49,7 +56,7 @@ public class ModCreativeModeTabs {
                     }).build());
 
     public static final RegistryObject<CreativeModeTab> EXODUS_BLOCK_TAB = CREATIVE_MODE_TABS.register("exodus_block_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.MACHINE_BLOCK.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.LITHIUM_ORE.get()))
                     .title(Component.translatable("creativetab.exodus_block_tab"))
                     .displayItems((displayParameters, output) -> {
 
@@ -63,10 +70,13 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.ALUMINUM_ORE.get());
                         output.accept(ModBlocks.DEEPSLATE_ALUMINUM_ORE.get());
 
+                        output.accept(ModBlocks.LITHIUM_ORE.get());
+                        output.accept(ModBlocks.DEEPSLATE_LITHIUM_ORE.get());
+
                     }).build());
 
     public static final RegistryObject<CreativeModeTab> EXODUS_MACHINE_TAB = CREATIVE_MODE_TABS.register("exodus_machine_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.SOLAR_PANEL.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.REDSTONE_FURNACE.get()))
                     .title(Component.translatable("creativetab.exodus_machine_tab"))
                     .displayItems((displayParameters, output) -> {
 

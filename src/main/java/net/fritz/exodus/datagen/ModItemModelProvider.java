@@ -29,6 +29,13 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.BRONZE_INGOT);
         simpleItem(ModItems.STEEL_INGOT);
 
+        simpleItem(ModItems.ALUMINUM_DUST);
+        simpleItem(ModItems.TIN_DUST);
+        simpleItem(ModItems.NICKEL_DUST);
+        simpleItem(ModItems.IRON_DUST);
+        simpleItem(ModItems.GOLD_DUST);
+        simpleItem(ModItems.COPPER_DUST);
+
         simpleItem(ModItems.TREE_SAP);
         simpleItem(ModItems.RUBBER);
         simpleItem(ModItems.SILICON);

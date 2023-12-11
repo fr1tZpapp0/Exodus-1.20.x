@@ -8,7 +8,6 @@ import net.fritz.exodus.item.ModItems;
 import net.fritz.exodus.recipe.ModRecipes;
 import net.fritz.exodus.screen.ModMenuTypes;
 import net.fritz.exodus.screen.RedstoneFurnaceScreen;
-import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.api.distmarker.Dist;
@@ -42,6 +41,10 @@ public class Exodus {
         ModBlockEntities.register(modEventBus);
         ModMenuTypes.register(modEventBus);
         ModRecipes.register(modEventBus);
+
+
+
+
 
 
         // Register the commonSetup method for modloading

@@ -25,7 +25,7 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
 
     public static final RegistryObject<Block> MACHINE_BLOCK = registerBlock("machine_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion()));
 
 
 
@@ -50,10 +50,10 @@ public class ModBlocks {
             () -> new CopperCable(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)));
 
     public static final RegistryObject<Block> GOLD_CABLE = registerBlock("gold_cable",
-            () -> new CopperCable(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)));
+            () -> new GoldCable(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)));
 
     public static final RegistryObject<Block> DIAMOND_CABLE = registerBlock("diamond_cable",
-            () -> new CopperCable(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)));
+            () -> new DiamondCable(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)));
 
 
 
@@ -64,6 +64,17 @@ public class ModBlocks {
     public static final RegistryObject<Block> DEEPSLATE_TIN_ORE = registerBlock("deepslate_tin_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE)
                     .strength(5f).requiresCorrectToolForDrops(), UniformInt.of(2, 5)));
+
+
+
+    public static final RegistryObject<Block> LITHIUM_ORE = registerBlock("lithium_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
+                    .strength(5f).requiresCorrectToolForDrops(), UniformInt.of(2, 5)));
+
+    public static final RegistryObject<Block> DEEPSLATE_LITHIUM_ORE = registerBlock("deepslate_lithium_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE)
+                    .strength(5f).requiresCorrectToolForDrops(), UniformInt.of(2, 5)));
+
 
 
     public static final RegistryObject<Block> NICKEL_ORE = registerBlock("nickel_ore",

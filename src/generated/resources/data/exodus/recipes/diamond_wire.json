@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "pattern": [
+    "III"
+  ],
+  "result": {
+    "item": "exodus:diamond_wire"
+  },
+  "show_notification": true
+}

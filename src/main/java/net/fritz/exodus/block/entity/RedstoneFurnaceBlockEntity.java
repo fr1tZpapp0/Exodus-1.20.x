@@ -31,6 +31,9 @@ public class RedstoneFurnaceBlockEntity extends AbstractFurnaceBlockEntity {
         super(ModBlockEntities.REDSTONE_FURNACE_BLOCK_ENTITY.get(), pPos, pBlockState, RedstoneFurnaceRecipe.Type.INSTANCE);
     }
 
+
+
+
     @Override
     protected Component getDefaultName() {
         return Component.translatable("block.exodus.redstone_furnace");

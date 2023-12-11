@@ -38,6 +38,27 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
 
 
+
+    public static final RegistryObject<Item> IRON_DUST = ITEMS.register("iron_dust",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> GOLD_DUST = ITEMS.register("gold_dust",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> COPPER_DUST = ITEMS.register("copper_dust",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> ALUMINUM_DUST = ITEMS.register("aluminum_dust",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> TIN_DUST = ITEMS.register("tin_dust",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> NICKEL_DUST = ITEMS.register("nickel_dust",
+            () -> new Item(new Item.Properties()));
+
+
+
     public static final RegistryObject<Item> TREE_SAP = ITEMS.register("tree_sap",
             () -> new Item(new Item.Properties()));
 

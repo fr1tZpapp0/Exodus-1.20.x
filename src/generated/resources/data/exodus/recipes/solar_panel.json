@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "M": {
+      "item": "exodus:machine_block"
+    },
+    "P": {
+      "item": "exodus:solar_panel_item"
+    },
+    "R": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "pattern": [
+    "PPP",
+    "MRM",
+    "III"
+  ],
+  "result": {
+    "item": "exodus:solar_panel"
+  },
+  "show_notification": true
+}

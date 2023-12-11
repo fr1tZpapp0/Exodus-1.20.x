@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "minecraft:gold_ingot"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "pattern": [
+    "  I",
+    " R ",
+    "I  "
+  ],
+  "result": {
+    "item": "exodus:redstone_coil"
+  },
+  "show_notification": true
+}

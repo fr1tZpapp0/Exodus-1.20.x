@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "item": "minecraft:glass_pane"
+    },
+    "L": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "S": {
+      "item": "exodus:silicon"
+    }
+  },
+  "pattern": [
+    "LGL",
+    "LSL",
+    "LRL"
+  ],
+  "result": {
+    "item": "exodus:solar_panel_item"
+  },
+  "show_notification": true
+}

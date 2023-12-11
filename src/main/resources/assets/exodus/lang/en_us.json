@@ -18,6 +18,15 @@
   "item.exodus.steel_ingot": "Steel Ingot",
   "item.exodus.tree_sap": "Tree Sap",
 
+
+  "item.exodus.iron_dust": "Iron Dust",
+  "item.exodus.gold_dust": "Gold Dust",
+  "item.exodus.copper_dust": "Copper Dust",
+  "item.exodus.tin_dust": "Tin Dust",
+  "item.exodus.aluminum_dust": "Aluminum Dust",
+  "item.exodus.nickel_dust": "Nickel Dust",
+
+
   "item.exodus.basic_battery": "Basic Battery",
   "item.exodus.medium_battery": "Medium Battery",
   "item.exodus.advanced_battery": "Advanced Battery",
@@ -40,7 +49,8 @@
   "block.exodus.aluminum_ore": "Aluminum Ore",
   "block.exodus.deepslate_aluminum_ore": "Deepslate Aluminum Ore",
 
-
+  "block.exodus.lithium_ore": "Lithium Ore",
+  "block.exodus.deepslate_lithium_ore": "Deepslate Lithium Ore",
 
   "block.exodus.machine_block": "Machine Block",
 

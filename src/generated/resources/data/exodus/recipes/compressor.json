@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:iron_block"
+    },
+    "M": {
+      "item": "exodus:machine_block"
+    },
+    "R": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "MRM",
+    "BBB"
+  ],
+  "result": {
+    "item": "exodus:compressor"
+  },
+  "show_notification": true
+}

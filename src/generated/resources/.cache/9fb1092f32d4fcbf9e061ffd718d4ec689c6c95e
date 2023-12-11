@@ -1,5 +1,23 @@
-// 1.20.1	2023-12-09T18:24:24.6913052	Recipes
+// 1.20.1	2023-12-10T21:49:48.397611	Recipes
 802b81a3322b202592875b2fcc3a336576461725 data/exodus/advancements/recipes/misc/bronze_blend.json
+697be169560cc0795633df024aa4ad771902dff9 data/exodus/advancements/recipes/misc/compressor.json
+9fe535f8fc16bf7afd3c62d94f35c5e200c435e0 data/exodus/advancements/recipes/misc/copper_wire.json
+db090c242f846799b4461fa4bd28d16161cf0792 data/exodus/advancements/recipes/misc/diamond_wire.json
+453b81283199c71989d650e8218025ee80628d87 data/exodus/advancements/recipes/misc/gold_wire.json
+c531ba37196ccee5c6ea40d43e41cfb788ba80d2 data/exodus/advancements/recipes/misc/machine_block.json
+b9900844f9de4b8e8d7a0205e306c6b37097abb7 data/exodus/advancements/recipes/misc/redstone_coil.json
 743c2b2f9707ce6c6a15c9398ff7c749cccb7996 data/exodus/advancements/recipes/misc/redstone_furnace.json
+8900dcd8c342401a4cffef2f172c41e83c73ed76 data/exodus/advancements/recipes/misc/silicon.json
+94d92ddfc17882a635c0b5033b4aed6b8c9e6db1 data/exodus/advancements/recipes/misc/solar_panel.json
+c0fa5d409d4f21377ea8ae99cb5bd5077af3b680 data/exodus/advancements/recipes/misc/solar_panel_item.json
 1ab838c14a77327339330b4d06d83c024cb11265 data/exodus/recipes/bronze_blend.json
+961cb6f118394c2bccc4996a96add8db1c31426d data/exodus/recipes/compressor.json
+50527c9bfccad16d47d3bb5d27decf86e589db08 data/exodus/recipes/copper_wire.json
+1585d8a714039bc56feb9bac2780f6149cbc1988 data/exodus/recipes/diamond_wire.json
+b17e25c296e9cc861b96a9c40b1ccba9d87b3d03 data/exodus/recipes/gold_wire.json
+b515f12674c6d841c9cc96eee9937a894adba3f9 data/exodus/recipes/machine_block.json
+3a5bcb7144bfcab1cfe5d62f6b61132347fa6a90 data/exodus/recipes/redstone_coil.json
 aea764c81c76b36b4954e0ee934f95c251d9a917 data/exodus/recipes/redstone_furnace.json
+cdac4c46fcf892ee9a29132297cddcc5a42690ac data/exodus/recipes/silicon.json
+34b11769416edb8685d64f0e26b9bdf5a3b7fcd8 data/exodus/recipes/solar_panel.json
+7147aea7aeab02f2096c6683807a3aac3e6d248c data/exodus/recipes/solar_panel_item.json

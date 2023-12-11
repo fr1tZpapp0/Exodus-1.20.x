@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "minecraft:copper_ingot"
+    }
+  },
+  "pattern": [
+    "III"
+  ],
+  "result": {
+    "item": "exodus:copper_wire"
+  },
+  "show_notification": true
+}
