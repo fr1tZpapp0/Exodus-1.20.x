@@ -59,6 +59,22 @@ public class ModItems {
 
 
 
+    public static final RegistryObject<Item> COPPER_GEAR = ITEMS.register("copper_gear",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> IRON_GEAR = ITEMS.register("iron_gear",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> GOLD_GEAR = ITEMS.register("gold_gear",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> TIN_GEAR = ITEMS.register("tin_gear",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> FUSE = ITEMS.register("fuse",
+            () -> new Item(new Item.Properties()));
+
+
     public static final RegistryObject<Item> TREE_SAP = ITEMS.register("tree_sap",
             () -> new Item(new Item.Properties()));
 

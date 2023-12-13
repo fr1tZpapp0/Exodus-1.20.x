@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "N": {
+      "item": "minecraft:iron_nugget"
+    },
+    "T": {
+      "item": "exodus:tin_ingot"
+    }
+  },
+  "pattern": [
+    " T ",
+    "TNT",
+    " T "
+  ],
+  "result": {
+    "item": "exodus:tin_gear"
+  },
+  "show_notification": true
+}

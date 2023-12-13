@@ -1,4 +1,4 @@
-// 1.20.1	2023-12-10T22:26:57.0640062	Item Models: exodus
+// 1.20.1	2023-12-12T19:48:30.113375	Item Models: exodus
 e5f40082bdab44a3db9b951e9cedff5bce595865 assets/exodus/models/item/advanced_battery.json
 1b585a31f4aad1dca1b6066207b1ee4eb90ada9b assets/exodus/models/item/aluminum_dust.json
 60847c9fe0ffee8f35ddaff1d705d6a5c9c199bb assets/exodus/models/item/aluminum_ingot.json
@@ -6,12 +6,16 @@ cafaad716201101ea4d24e24b6ab75024be64b0a assets/exodus/models/item/basic_battery
 af19a79386430eb5cca019d9ffa8cd487644fec3 assets/exodus/models/item/bronze_blend.json
 36ed9f3004e6bc93b53fdfde3a13b2763066d47c assets/exodus/models/item/bronze_ingot.json
 e5b60445150ed43fa8a4c8cdd0a03ba3180fe497 assets/exodus/models/item/copper_dust.json
+56d7e4e069bd3263c5b0a71cde8b11f2bcc208ec assets/exodus/models/item/copper_gear.json
 305291797772772545323c4b6e854324956fc4e9 assets/exodus/models/item/copper_wire.json
 04beabad6d7207244ac7474b2c855c36d7fa244f assets/exodus/models/item/diamond_wire.json
+0830bcc89aec0a87acfdeb19790eca53b662243d assets/exodus/models/item/fuse.json
 291135ff7d38c1cbbe897b66e805d3d4881810d3 assets/exodus/models/item/gold_dust.json
+4e218a76d225c05e9d54b5e34af19b4d917fccf7 assets/exodus/models/item/gold_gear.json
 f707d88cba81b1fe547b2c60230bc7669879070d assets/exodus/models/item/gold_wire.json
 1f6031b79dd80c818bb667a7de3712a04797b050 assets/exodus/models/item/industrial_diamond.json
 013aaa389d54442a487af62031dcc49a653f6d0e assets/exodus/models/item/iron_dust.json
+710a5e2d003e1b633d3f426ded6374fd40b76c53 assets/exodus/models/item/iron_gear.json
 2c276380cf558df2cf4b7835d6ff2a1faba92c78 assets/exodus/models/item/lithium.json
 112f619346a2987b6fbc5591a6a4ec510fa2c1af assets/exodus/models/item/medium_battery.json
 549d9a17bf2776ac32d5db01c6f3846ca6132cb4 assets/exodus/models/item/nickel_dust.json
@@ -25,5 +29,6 @@ f349e9570819dd9945642a91d9a4369759a1a933 assets/exodus/models/item/silicon.json
 8be6675fa56b90e330bfebc1093551984f1995dc assets/exodus/models/item/solar_panel_item.json
 4a5d481eb41242535350af727550ceb2b3f37122 assets/exodus/models/item/steel_ingot.json
 26e2cc8e6e1910bfa1bf78d1ed87acc7ad8dc114 assets/exodus/models/item/tin_dust.json
+bf06418870b43fcbb650525fde0c7657343cf707 assets/exodus/models/item/tin_gear.json
 bae980ee71aa048fcaa57fb1d0ac35a0bfa28de0 assets/exodus/models/item/tin_ingot.json
 77130954a0d19b342cb27882429a366c760673da assets/exodus/models/item/tree_sap.json

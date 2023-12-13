@@ -2,7 +2,7 @@
   "parent": "minecraft:block/orientable",
   "textures": {
     "front": "exodus:block/redstone_furnace_front",
-    "side": "exodus:block/redstone_furnace_side",
-    "top": "exodus:block/redstone_furnace_top"
+    "side": "exodus:block/machine_side",
+    "top": "exodus:block/machine_side"
   }
 }

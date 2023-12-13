@@ -6,7 +6,10 @@
       "item": "exodus:redstone_coil"
     },
     "C": {
-      "item": "exodus:copper_wire"
+      "item": "exodus:iron_gear"
+    },
+    "F": {
+      "item": "exodus:fuse"
     },
     "I": {
       "item": "minecraft:iron_ingot"
@@ -21,7 +24,7 @@
   "pattern": [
     "#Y#",
     "CXC",
-    "III"
+    "IFI"
   ],
   "result": {
     "item": "exodus:redstone_furnace"

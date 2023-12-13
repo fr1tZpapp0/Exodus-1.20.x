@@ -36,12 +36,18 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.GOLD_DUST);
         simpleItem(ModItems.COPPER_DUST);
 
+        simpleItem(ModItems.COPPER_GEAR);
+        simpleItem(ModItems.IRON_GEAR);
+        simpleItem(ModItems.GOLD_GEAR);
+        simpleItem(ModItems.TIN_GEAR);
+
         simpleItem(ModItems.TREE_SAP);
         simpleItem(ModItems.RUBBER);
         simpleItem(ModItems.SILICON);
         simpleItem(ModItems.INDUSTRIAL_DIAMOND);
         simpleItem(ModItems.LITHIUM);
         simpleItem(ModItems.SOLAR_PANEL_ITEM);
+        simpleItem(ModItems.FUSE);
         simpleItem(ModItems.REDSTONE_COIL);
 
         simpleItem(ModItems.COPPER_WIRE);
@@ -61,6 +67,10 @@ public class ModItemModelProvider extends ItemModelProvider {
     }
 
 
-
+    private ItemModelBuilder handheldItem(RegistryObject<Item> item) {
+        return withExistingParent(item.getId().getPath(),
+                new ResourceLocation("item/handheld")).texture("layer0",
+                new ResourceLocation(Exodus.MODID, "item/" + item.getId().getPath()));
+    }
 
 }

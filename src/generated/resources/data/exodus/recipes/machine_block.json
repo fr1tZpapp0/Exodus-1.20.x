@@ -2,17 +2,20 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "I": {
-      "item": "minecraft:iron_block"
+    "B": {
+      "item": "exodus:bronze_ingot"
+    },
+    "F": {
+      "item": "exodus:fuse"
     },
     "R": {
-      "item": "minecraft:redstone_block"
+      "item": "exodus:redstone_coil"
     }
   },
   "pattern": [
-    "III",
-    "R R",
-    "III"
+    "BBB",
+    "RFR",
+    "BBB"
   ],
   "result": {
     "item": "exodus:machine_block"

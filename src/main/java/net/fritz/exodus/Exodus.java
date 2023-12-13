@@ -44,9 +44,6 @@ public class Exodus {
 
 
 
-
-
-
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "exodus:tin_gear"
+    },
+    "L": {
+      "item": "exodus:lithium"
+    },
+    "P": {
+      "item": "minecraft:glass_pane"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "pattern": [
+    "IRI",
+    "PLP",
+    "IRI"
+  ],
+  "result": {
+    "item": "exodus:fuse"
+  },
+  "show_notification": true
+}

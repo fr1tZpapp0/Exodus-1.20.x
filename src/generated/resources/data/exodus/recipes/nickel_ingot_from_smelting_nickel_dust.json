@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "nickel",
+  "ingredient": {
+    "item": "exodus:nickel_dust"
+  },
+  "result": "exodus:nickel_ingot"
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "exodus:aluminum_ingot"
+    },
+    "L": {
+      "item": "exodus:lithium"
+    },
+    "R": {
+      "item": "exodus:redstone_coil"
+    },
+    "T": {
+      "item": "exodus:tin_ingot"
+    }
+  },
+  "pattern": [
+    "RAR",
+    "TLT",
+    "TTT"
+  ],
+  "result": {
+    "item": "exodus:basic_battery"
+  },
+  "show_notification": true
+}

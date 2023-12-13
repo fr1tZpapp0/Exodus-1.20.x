@@ -36,7 +36,13 @@
   "item.exodus.gold_wire": "Gold Wire",
   "item.exodus.diamond_wire": "Diamond Wire",
 
+  "item.exodus.copper_gear": "Copper Gear",
+  "item.exodus.iron_gear": "Iron Gear",
+  "item.exodus.gold_gear": "Gold Gear",
+  "item.exodus.tin_gear": "Tin Gear",
+
   "item.exodus.solar_panel_item": "Solar Panel",
+  "item.exodus.fuse": "Fuse",
 
 
   "block.exodus.nickel_block": "Block of Nickel",

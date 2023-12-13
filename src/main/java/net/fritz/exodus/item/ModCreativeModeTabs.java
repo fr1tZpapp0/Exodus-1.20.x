@@ -48,6 +48,13 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.GOLD_WIRE.get());
                         output.accept(ModItems.DIAMOND_WIRE.get());
                         output.accept(ModItems.SOLAR_PANEL_ITEM.get());
+                        output.accept(ModItems.FUSE.get());
+
+                        output.accept(ModItems.COPPER_GEAR.get());
+                        output.accept(ModItems.IRON_GEAR.get());
+                        output.accept(ModItems.GOLD_GEAR.get());
+                        output.accept(ModItems.TIN_GEAR.get());
+
 
                         output.accept(ModItems.BASIC_BATTERY.get());
                         output.accept(ModItems.MEDIUM_BATTERY.get());

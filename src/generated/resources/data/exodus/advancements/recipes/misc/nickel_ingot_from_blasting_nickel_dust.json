@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_nickel_dust": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "exodus:nickel_dust"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "exodus:nickel_ingot_from_blasting_nickel_dust"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_nickel_dust",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "exodus:nickel_ingot_from_blasting_nickel_dust"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "exodus:aluminum_ingot"
+    },
+    "B": {
+      "item": "exodus:basic_battery"
+    },
+    "D": {
+      "item": "exodus:industrial_diamond"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "L": {
+      "item": "exodus:lithium"
+    },
+    "R": {
+      "item": "exodus:redstone_coil"
+    }
+  },
+  "pattern": [
+    "RDR",
+    "GBG",
+    "ALA"
+  ],
+  "result": {
+    "item": "exodus:medium_battery"
+  },
+  "show_notification": true
+}

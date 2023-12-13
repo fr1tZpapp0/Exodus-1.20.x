@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "exodus:rubber_from_smelting_tree_sap"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_tree_sap": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "exodus:tree_sap"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_tree_sap",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "exodus:rubber_from_smelting_tree_sap"
+    ]
+  },
+  "sends_telemetry_event": false
+}
