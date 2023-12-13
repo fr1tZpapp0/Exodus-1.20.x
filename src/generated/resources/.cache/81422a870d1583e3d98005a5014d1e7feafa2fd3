@@ -1,10 +1,11 @@
-// 1.20.1	2023-12-12T19:48:30.113375	Item Models: exodus
+// 1.20.1	2023-12-13T00:03:50.9024666	Item Models: exodus
 e5f40082bdab44a3db9b951e9cedff5bce595865 assets/exodus/models/item/advanced_battery.json
 1b585a31f4aad1dca1b6066207b1ee4eb90ada9b assets/exodus/models/item/aluminum_dust.json
 60847c9fe0ffee8f35ddaff1d705d6a5c9c199bb assets/exodus/models/item/aluminum_ingot.json
 cafaad716201101ea4d24e24b6ab75024be64b0a assets/exodus/models/item/basic_battery.json
 af19a79386430eb5cca019d9ffa8cd487644fec3 assets/exodus/models/item/bronze_blend.json
 36ed9f3004e6bc93b53fdfde3a13b2763066d47c assets/exodus/models/item/bronze_ingot.json
+f4a6268b156298fed6d25aa4102bd3f4c5f0a9da assets/exodus/models/item/capacitor.json
 e5b60445150ed43fa8a4c8cdd0a03ba3180fe497 assets/exodus/models/item/copper_dust.json
 56d7e4e069bd3263c5b0a71cde8b11f2bcc208ec assets/exodus/models/item/copper_gear.json
 305291797772772545323c4b6e854324956fc4e9 assets/exodus/models/item/copper_wire.json

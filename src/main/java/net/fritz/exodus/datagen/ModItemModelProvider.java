@@ -49,6 +49,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.SOLAR_PANEL_ITEM);
         simpleItem(ModItems.FUSE);
         simpleItem(ModItems.REDSTONE_COIL);
+        simpleItem(ModItems.CAPACITOR);
 
         simpleItem(ModItems.COPPER_WIRE);
         simpleItem(ModItems.GOLD_WIRE);

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "exodus:medium_energy_cell"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "exodus:blocks/medium_energy_cell"
+}

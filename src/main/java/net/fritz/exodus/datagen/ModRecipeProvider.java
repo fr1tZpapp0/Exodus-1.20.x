@@ -95,6 +95,28 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                         .of(Items.IRON_INGOT).build())).save(pWriter);
 
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.COAL_GENERATOR.get())
+                .pattern("#IW")
+                .pattern("GXG")
+                .pattern("CFC")
+                .define('#', ModItems.REDSTONE_COIL.get())
+                .define('W', ModItems.COPPER_WIRE.get())
+                .define('I', Items.IRON_INGOT)
+                .define('G', ModItems.IRON_GEAR.get())
+                .define('X', ModBlocks.MACHINE_BLOCK.get())
+                .define('C', Items.COAL)
+                .define('F', ModItems.FUSE.get())
+                .unlockedBy("has_iron_ingot", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.IRON_INGOT).build())).save(pWriter);
+
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.NICKEL_BLOCK.get())
+                .pattern("III")
+                .pattern("III")
+                .pattern("III")
+                .define('I', ModItems.NICKEL_INGOT.get())
+                .unlockedBy("has_nickel_ingot", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModItems.NICKEL_INGOT.get()).build())).save(pWriter);
 
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.COPPER_WIRE.get())
@@ -176,6 +198,19 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_machine_block", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(ModBlocks.MACHINE_BLOCK.get()).build())).save(pWriter);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.PULVERIZER.get())
+                .pattern("GRG")
+                .pattern("TMT")
+                .pattern("BWB")
+                .define('B', Blocks.IRON_BLOCK)
+                .define('R', ModItems.REDSTONE_COIL.get())
+                .define('M', ModBlocks.MACHINE_BLOCK.get())
+                .define('T', ModItems.TIN_GEAR.get())
+                .define('G', ModItems.GOLD_GEAR.get())
+                .define('W', ModItems.GOLD_WIRE.get())
+                .unlockedBy("has_machine_block", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModBlocks.MACHINE_BLOCK.get()).build())).save(pWriter);
+
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.COPPER_GEAR.get())
                         .pattern(" C ")
@@ -254,6 +289,43 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                         .of(Items.NETHERITE_INGOT).build())).save(pWriter);
 
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.BASIC_ENERGY_CELL.get())
+                .pattern("RCR")
+                .pattern("MBM")
+                .pattern("ACA")
+                .define('A', ModItems.ALUMINUM_INGOT.get())
+                .define('R', ModItems.REDSTONE_COIL.get())
+                .define('M', ModBlocks.MACHINE_BLOCK.get())
+                .define('C', ModItems.CAPACITOR.get())
+                .define('B', ModItems.BASIC_BATTERY.get())
+                .unlockedBy("has_capacitor", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModItems.CAPACITOR.get()).build())).save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.MEDIUM_ENERGY_CELL.get())
+                .pattern("RCR")
+                .pattern("MBM")
+                .pattern("ACA")
+                .define('A', ModItems.INDUSTRIAL_DIAMOND.get())
+                .define('R', ModItems.REDSTONE_COIL.get())
+                .define('M', ModBlocks.MACHINE_BLOCK.get())
+                .define('C', ModItems.CAPACITOR.get())
+                .define('B', ModItems.MEDIUM_BATTERY.get())
+                .unlockedBy("has_capacitor", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModItems.CAPACITOR.get()).build())).save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.ADVANCED_ENERGY_CELL.get())
+                .pattern("RCR")
+                .pattern("MBM")
+                .pattern("ACA")
+                .define('A', Items.NETHERITE_INGOT)
+                .define('R', ModItems.REDSTONE_COIL.get())
+                .define('M', ModBlocks.MACHINE_BLOCK.get())
+                .define('C', ModItems.CAPACITOR.get())
+                .define('B', ModItems.ADVANCED_BATTERY.get())
+                .unlockedBy("has_capacitor", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModItems.CAPACITOR.get()).build())).save(pWriter);
+
+
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.FUSE.get())
                 .pattern("IRI")
                 .pattern("PLP")
@@ -272,6 +344,31 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                         .of(Items.COPPER_INGOT).build())).save(pWriter);
 
 
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModBlocks.COPPER_CABLE.get())
+                .requires(ModItems.COPPER_WIRE.get()).requires(ModItems.RUBBER.get())
+                .unlockedBy("has_copper_ingot", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.COPPER_INGOT).build())).save(pWriter);
+
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModBlocks.GOLD_CABLE.get())
+                .requires(ModItems.GOLD_WIRE.get()).requires(ModItems.RUBBER.get())
+                .unlockedBy("has_gold_ingot", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.GOLD_INGOT).build())).save(pWriter);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModBlocks.DIAMOND_CABLE.get())
+                .requires(ModItems.DIAMOND_WIRE.get()).requires(ModItems.RUBBER.get())
+                .requires(ModItems.SILICON.get())
+                .unlockedBy("has_diamond", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.DIAMOND).build())).save(pWriter);
+
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.CAPACITOR.get())
+                .requires(ModItems.TIN_INGOT.get()).requires(ModItems.RUBBER.get())
+                .requires(ModItems.SILICON.get()).requires(Items.REDSTONE)
+                .unlockedBy("has_tin_ingot", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModItems.TIN_INGOT.get()).build())).save(pWriter);
+
+
         oreSmelting(pWriter, TIN_SMELT, RecipeCategory.MISC, ModItems.TIN_INGOT.get(), 0.25f, 200, "tin");
         oreSmelting(pWriter, ALUMINUM_SMELT, RecipeCategory.MISC, ModItems.ALUMINUM_INGOT.get(), 0.25f, 200, "aluminum");
         oreSmelting(pWriter, NICKEL_SMELT, RecipeCategory.MISC, ModItems.NICKEL_INGOT.get(), 0.25f, 200, "nickel");
@@ -285,6 +382,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         oreSmelting(pWriter, COPPER_SMELT, RecipeCategory.MISC, Items.COPPER_INGOT, 0.25f, 200, "copper");
         oreSmelting(pWriter, IRON_SMELT, RecipeCategory.MISC, Items.IRON_INGOT, 0.25f, 200, "iron");
         oreSmelting(pWriter, GOLD_SMELT, RecipeCategory.MISC, Items.GOLD_INGOT, 0.25f, 200, "gold");
+
 
         oreBlasting(pWriter, COPPER_SMELT, RecipeCategory.MISC, Items.COPPER_INGOT, 0.25f, 100, "copper");
         oreBlasting(pWriter, IRON_SMELT, RecipeCategory.MISC, Items.IRON_INGOT, 0.25f, 100, "iron");

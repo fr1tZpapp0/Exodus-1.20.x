@@ -25,9 +25,19 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
 
     public static final RegistryObject<Block> MACHINE_BLOCK = registerBlock("machine_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion()));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
 
 
+
+
+    public static final RegistryObject<Block> BASIC_ENERGY_CELL = registerBlock("basic_energy_cell",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+
+    public static final RegistryObject<Block> MEDIUM_ENERGY_CELL = registerBlock("medium_energy_cell",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+
+    public static final RegistryObject<Block> ADVANCED_ENERGY_CELL = registerBlock("advanced_energy_cell",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
 
 
 
@@ -42,6 +52,9 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> COMPRESSOR = registerBlock("compressor",
             () -> new Compressor(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+
+    public static final RegistryObject<Block> PULVERIZER = registerBlock("pulverizer",
+            () -> new PulverizerBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
 
 
 

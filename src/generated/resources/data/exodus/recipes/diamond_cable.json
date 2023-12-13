@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "exodus:diamond_wire"
+    },
+    {
+      "item": "exodus:rubber"
+    },
+    {
+      "item": "exodus:silicon"
+    }
+  ],
+  "result": {
+    "item": "exodus:diamond_cable"
+  }
+}

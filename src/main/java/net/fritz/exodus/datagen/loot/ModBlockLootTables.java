@@ -24,6 +24,11 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.REDSTONE_FURNACE.get());
         this.dropSelf(ModBlocks.COAL_GENERATOR.get());
         this.dropSelf(ModBlocks.COMPRESSOR.get());
+        this.dropSelf(ModBlocks.PULVERIZER.get());
+
+        this.dropSelf(ModBlocks.BASIC_ENERGY_CELL.get());
+        this.dropSelf(ModBlocks.MEDIUM_ENERGY_CELL.get());
+        this.dropSelf(ModBlocks.ADVANCED_ENERGY_CELL.get());
 
         this.dropSelf(ModBlocks.DIAMOND_CABLE.get());
         this.dropSelf(ModBlocks.GOLD_CABLE.get());

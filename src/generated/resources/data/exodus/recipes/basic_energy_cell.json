@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "exodus:aluminum_ingot"
+    },
+    "B": {
+      "item": "exodus:basic_battery"
+    },
+    "C": {
+      "item": "exodus:capacitor"
+    },
+    "M": {
+      "item": "exodus:machine_block"
+    },
+    "R": {
+      "item": "exodus:redstone_coil"
+    }
+  },
+  "pattern": [
+    "RCR",
+    "MBM",
+    "ACA"
+  ],
+  "result": {
+    "item": "exodus:basic_energy_cell"
+  },
+  "show_notification": true
+}

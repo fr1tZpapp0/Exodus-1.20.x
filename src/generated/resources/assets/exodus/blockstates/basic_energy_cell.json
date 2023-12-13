@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "exodus:block/basic_energy_cell"
+    }
+  }
+}

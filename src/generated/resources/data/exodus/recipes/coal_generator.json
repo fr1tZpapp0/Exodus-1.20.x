@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "exodus:redstone_coil"
+    },
+    "C": {
+      "item": "minecraft:coal"
+    },
+    "F": {
+      "item": "exodus:fuse"
+    },
+    "G": {
+      "item": "exodus:iron_gear"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "W": {
+      "item": "exodus:copper_wire"
+    },
+    "X": {
+      "item": "exodus:machine_block"
+    }
+  },
+  "pattern": [
+    "#IW",
+    "GXG",
+    "CFC"
+  ],
+  "result": {
+    "item": "exodus:coal_generator"
+  },
+  "show_notification": true
+}

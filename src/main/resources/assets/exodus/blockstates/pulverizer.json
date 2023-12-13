@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "exodus:block/pulverizer",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "exodus:block/pulverizer"
+    },
+    "facing=south": {
+      "model": "exodus:block/pulverizer",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "exodus:block/pulverizer",
+      "y": 270
+    }
+  }
+}

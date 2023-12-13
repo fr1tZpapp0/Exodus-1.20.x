@@ -23,6 +23,10 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.DIAMOND_CABLE);
         blockWithItem(ModBlocks.NICKEL_BLOCK);
 
+        blockWithItem(ModBlocks.BASIC_ENERGY_CELL);
+        blockWithItem(ModBlocks.MEDIUM_ENERGY_CELL);
+        blockWithItem(ModBlocks.ADVANCED_ENERGY_CELL);
+
         blockWithItem(ModBlocks.ALUMINUM_ORE);
         blockWithItem(ModBlocks.TIN_ORE);
         blockWithItem(ModBlocks.NICKEL_ORE);

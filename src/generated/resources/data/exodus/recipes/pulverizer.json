@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:iron_block"
+    },
+    "G": {
+      "item": "exodus:gold_gear"
+    },
+    "M": {
+      "item": "exodus:machine_block"
+    },
+    "R": {
+      "item": "exodus:redstone_coil"
+    },
+    "T": {
+      "item": "exodus:tin_gear"
+    },
+    "W": {
+      "item": "exodus:gold_wire"
+    }
+  },
+  "pattern": [
+    "GRG",
+    "TMT",
+    "BWB"
+  ],
+  "result": {
+    "item": "exodus:pulverizer"
+  },
+  "show_notification": true
+}

@@ -49,6 +49,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.DIAMOND_WIRE.get());
                         output.accept(ModItems.SOLAR_PANEL_ITEM.get());
                         output.accept(ModItems.FUSE.get());
+                        output.accept(ModItems.CAPACITOR.get());
 
                         output.accept(ModItems.COPPER_GEAR.get());
                         output.accept(ModItems.IRON_GEAR.get());
@@ -92,10 +93,15 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.REDSTONE_FURNACE.get());
                         output.accept(ModBlocks.COAL_GENERATOR.get());
                         output.accept(ModBlocks.COMPRESSOR.get());
+                        output.accept(ModBlocks.PULVERIZER.get());
 
                         output.accept(ModBlocks.COPPER_CABLE.get());
                         output.accept(ModBlocks.GOLD_CABLE.get());
                         output.accept(ModBlocks.DIAMOND_CABLE.get());
+
+                        output.accept(ModBlocks.BASIC_ENERGY_CELL.get());
+                        output.accept(ModBlocks.MEDIUM_ENERGY_CELL.get());
+                        output.accept(ModBlocks.ADVANCED_ENERGY_CELL.get());
 
                     }).build());
 

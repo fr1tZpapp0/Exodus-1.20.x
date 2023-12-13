@@ -17,6 +17,7 @@
   "item.exodus.lithium": "Lithium",
   "item.exodus.steel_ingot": "Steel Ingot",
   "item.exodus.tree_sap": "Tree Sap",
+  "item.exodus.capacitor": "Capacitor",
 
 
   "item.exodus.iron_dust": "Iron Dust",
@@ -59,11 +60,15 @@
   "block.exodus.deepslate_lithium_ore": "Deepslate Lithium Ore",
 
   "block.exodus.machine_block": "Machine Block",
+  "block.exodus.basic_energy_cell": "Basic Energy Cell",
+  "block.exodus.medium_energy_cell": "Medium Energy Cell",
+  "block.exodus.advanced_energy_cell": "Advanced Energy Cell",
 
   "block.exodus.solar_panel": "Solar Panel",
   "block.exodus.redstone_furnace": "Redstone Furnace",
   "block.exodus.coal_generator": "Coal Engine",
   "block.exodus.compressor": "Compressor",
+  "block.exodus.pulverizer": "Pulverizer",
 
   "block.exodus.copper_cable": "Copper Cable",
   "block.exodus.gold_cable": "Gold Cable",
