@@ -26,6 +26,9 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.RAW_ALUMINUM.get());
                         output.accept(ModItems.ALUMINUM_INGOT.get());
 
+                        output.accept(ModItems.RAW_URANIUM.get());
+                        output.accept(ModItems.URANIUM.get());
+
                         output.accept(ModItems.STEEL_INGOT.get());
                         output.accept(ModItems.BRONZE_BLEND.get());
                         output.accept(ModItems.BRONZE_INGOT.get());
@@ -42,6 +45,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.IRON_DUST.get());
                         output.accept(ModItems.GOLD_DUST.get());
                         output.accept(ModItems.COPPER_DUST.get());
+                        output.accept(ModItems.URANIUM_DUST.get());
 
                         output.accept(ModItems.REDSTONE_COIL.get());
                         output.accept(ModItems.COPPER_WIRE.get());
@@ -80,6 +84,9 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModBlocks.LITHIUM_ORE.get());
                         output.accept(ModBlocks.DEEPSLATE_LITHIUM_ORE.get());
+
+                        output.accept(ModBlocks.URANIUM_ORE.get());
+                        output.accept(ModBlocks.DEEPSLATE_URANIUM_ORE.get());
 
                     }).build());
 

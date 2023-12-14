@@ -4,9 +4,11 @@
     "exodus:tin_ore",
     "exodus:nickel_ore",
     "exodus:lithium_ore",
+    "exodus:uranium_ore",
     "exodus:deepslate_aluminum_ore",
     "exodus:deepslate_lithium_ore",
     "exodus:deepslate_nickel_ore",
-    "exodus:deepslate_tin_ore"
+    "exodus:deepslate_tin_ore",
+    "exodus:deepslate_uranium_ore"
   ]
 }

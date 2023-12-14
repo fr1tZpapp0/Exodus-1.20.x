@@ -8,6 +8,10 @@
   "item.exodus.raw_aluminum": "Raw Aluminum",
   "item.exodus.aluminum_ingot": "Aluminum Ingot",
 
+  "item.exodus.raw_uranium": "Raw Uranium",
+  "item.exodus.uranium": "Uranium",
+
+
   "item.exodus.bronze_blend": "Bronze Blend",
   "item.exodus.bronze_ingot": "Bronze Ingot",
 
@@ -26,6 +30,7 @@
   "item.exodus.tin_dust": "Tin Dust",
   "item.exodus.aluminum_dust": "Aluminum Dust",
   "item.exodus.nickel_dust": "Nickel Dust",
+  "item.exodus.uranium_dust": "Uranium Dust",
 
 
   "item.exodus.basic_battery": "Basic Battery",
@@ -58,6 +63,9 @@
 
   "block.exodus.lithium_ore": "Lithium Ore",
   "block.exodus.deepslate_lithium_ore": "Deepslate Lithium Ore",
+
+  "block.exodus.uranium_ore": "Uranium Ore",
+  "block.exodus.deepslate_uranium_ore": "Deepslate Uranium Ore",
 
   "block.exodus.machine_block": "Machine Block",
   "block.exodus.basic_energy_cell": "Basic Energy Cell",

@@ -37,6 +37,12 @@ public class ModItems {
     public static final RegistryObject<Item> STEEL_INGOT = ITEMS.register("steel_ingot",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> URANIUM = ITEMS.register("uranium",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> RAW_URANIUM = ITEMS.register("raw_uranium",
+            () -> new Item(new Item.Properties()));
+
 
 
     public static final RegistryObject<Item> IRON_DUST = ITEMS.register("iron_dust",
@@ -55,6 +61,9 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> NICKEL_DUST = ITEMS.register("nickel_dust",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> URANIUM_DUST = ITEMS.register("uranium_dust",
             () -> new Item(new Item.Properties()));
 
 

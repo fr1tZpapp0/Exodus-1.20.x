@@ -49,6 +49,9 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.add(ModBlocks.LITHIUM_ORE.get(), block ->
                 createOreDrop(ModBlocks.LITHIUM_ORE.get(), ModItems.LITHIUM.get()));
 
+        this.add(ModBlocks.URANIUM_ORE.get(), block ->
+                createOreDrop(ModBlocks.URANIUM_ORE.get(), ModItems.RAW_URANIUM.get()));
+
 
         this.add(ModBlocks.DEEPSLATE_ALUMINUM_ORE.get(), block ->
                 createOreDrop(ModBlocks.DEEPSLATE_ALUMINUM_ORE.get(), ModItems.RAW_ALUMINUM.get()));
@@ -61,6 +64,9 @@ public class ModBlockLootTables extends BlockLootSubProvider {
 
         this.add(ModBlocks.DEEPSLATE_LITHIUM_ORE.get(), block ->
                 createOreDrop(ModBlocks.DEEPSLATE_LITHIUM_ORE.get(), ModItems.LITHIUM.get()));
+
+        this.add(ModBlocks.DEEPSLATE_URANIUM_ORE.get(), block ->
+                createOreDrop(ModBlocks.DEEPSLATE_URANIUM_ORE.get(), ModItems.RAW_URANIUM.get()));
 
     }
 

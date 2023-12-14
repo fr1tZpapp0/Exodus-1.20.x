@@ -26,11 +26,13 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         ModBlocks.TIN_ORE.get(),
                         ModBlocks.NICKEL_ORE.get(),
                         ModBlocks.LITHIUM_ORE.get(),
+                        ModBlocks.URANIUM_ORE.get(),
 
                         ModBlocks.DEEPSLATE_ALUMINUM_ORE.get(),
                         ModBlocks.DEEPSLATE_LITHIUM_ORE.get(),
                         ModBlocks.DEEPSLATE_NICKEL_ORE.get(),
-                        ModBlocks.DEEPSLATE_TIN_ORE.get()
+                        ModBlocks.DEEPSLATE_TIN_ORE.get(),
+                        ModBlocks.DEEPSLATE_URANIUM_ORE.get()
                         );
         this.tag(BlockTags.NEEDS_IRON_TOOL)
                 .add(
@@ -38,11 +40,13 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         ModBlocks.TIN_ORE.get(),
                         ModBlocks.NICKEL_ORE.get(),
                         ModBlocks.LITHIUM_ORE.get(),
+                        ModBlocks.URANIUM_ORE.get(),
 
                         ModBlocks.DEEPSLATE_ALUMINUM_ORE.get(),
                         ModBlocks.DEEPSLATE_LITHIUM_ORE.get(),
                         ModBlocks.DEEPSLATE_NICKEL_ORE.get(),
-                        ModBlocks.DEEPSLATE_TIN_ORE.get()
+                        ModBlocks.DEEPSLATE_TIN_ORE.get(),
+                        ModBlocks.DEEPSLATE_URANIUM_ORE.get()
                 );
 
     }

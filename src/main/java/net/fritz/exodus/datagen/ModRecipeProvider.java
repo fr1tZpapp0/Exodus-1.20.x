@@ -6,7 +6,6 @@ import net.fritz.exodus.item.ModItems;
 import net.minecraft.advancements.critereon.ItemPredicate;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
-import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.AbstractCookingRecipe;
 import net.minecraft.world.item.crafting.Ingredient;
@@ -72,6 +71,13 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
     private static final List<ItemLike> LITHIUM_SMELT = List.of(
             ModBlocks.LITHIUM_ORE.get(),
             ModBlocks.DEEPSLATE_LITHIUM_ORE.get()
+    );
+
+    public static final List<ItemLike> URANIUM_SMELT = List.of(
+            ModItems.RAW_URANIUM.get(),
+            ModItems.URANIUM_DUST.get(),
+            ModBlocks.URANIUM_ORE.get(),
+            ModBlocks.DEEPSLATE_URANIUM_ORE.get()
     );
 
     public ModRecipeProvider(PackOutput pOutput) {
@@ -373,6 +379,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         oreSmelting(pWriter, ALUMINUM_SMELT, RecipeCategory.MISC, ModItems.ALUMINUM_INGOT.get(), 0.25f, 200, "aluminum");
         oreSmelting(pWriter, NICKEL_SMELT, RecipeCategory.MISC, ModItems.NICKEL_INGOT.get(), 0.25f, 200, "nickel");
         oreSmelting(pWriter, LITHIUM_SMELT, RecipeCategory.MISC, ModItems.LITHIUM.get(), 0.25f, 200, "lithium");
+        oreSmelting(pWriter, URANIUM_SMELT, RecipeCategory.MISC, ModItems.URANIUM.get(), 0.25f, 200, "uranium");
 
         oreSmelting(pWriter, SILICON_SMELT, RecipeCategory.MISC, ModItems.SILICON.get(), 0.25f, 200, "silicon");
         oreSmelting(pWriter, RUBBER_SMELT, RecipeCategory.MISC, ModItems.RUBBER.get(), 0.25f, 200, "rubber");
@@ -394,6 +401,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         oreBlasting(pWriter, NICKEL_SMELT, RecipeCategory.MISC, ModItems.NICKEL_INGOT.get(), 0.25f, 100, "nickel");
         oreBlasting(pWriter, LITHIUM_SMELT, RecipeCategory.MISC, ModItems.LITHIUM.get(), 0.25f, 100, "lithium");
         oreBlasting(pWriter, BRONZE_SMELT, RecipeCategory.MISC, ModItems.BRONZE_INGOT.get(), 0.25f, 100, "bronze");
+        oreBlasting(pWriter, URANIUM_SMELT, RecipeCategory.MISC, ModItems.URANIUM.get(), 0.25f, 100, "uranium");
     }
 
 

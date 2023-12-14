@@ -20,10 +20,12 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.RAW_ALUMINUM);
         simpleItem(ModItems.RAW_TIN);
         simpleItem(ModItems.RAW_NICKEL);
+        simpleItem(ModItems.RAW_URANIUM);
 
         simpleItem(ModItems.ALUMINUM_INGOT);
         simpleItem(ModItems.TIN_INGOT);
         simpleItem(ModItems.NICKEL_INGOT);
+        simpleItem(ModItems.URANIUM);
 
         simpleItem(ModItems.BRONZE_BLEND);
         simpleItem(ModItems.BRONZE_INGOT);
@@ -35,6 +37,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.IRON_DUST);
         simpleItem(ModItems.GOLD_DUST);
         simpleItem(ModItems.COPPER_DUST);
+        simpleItem(ModItems.URANIUM_DUST);
 
         simpleItem(ModItems.COPPER_GEAR);
         simpleItem(ModItems.IRON_GEAR);

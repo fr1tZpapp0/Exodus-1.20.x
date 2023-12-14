@@ -1,4 +1,4 @@
-// 1.20.1	2023-12-13T00:03:50.9024666	Item Models: exodus
+// 1.20.1	2023-12-13T23:02:07.012472	Item Models: exodus
 e5f40082bdab44a3db9b951e9cedff5bce595865 assets/exodus/models/item/advanced_battery.json
 1b585a31f4aad1dca1b6066207b1ee4eb90ada9b assets/exodus/models/item/aluminum_dust.json
 60847c9fe0ffee8f35ddaff1d705d6a5c9c199bb assets/exodus/models/item/aluminum_ingot.json
@@ -24,6 +24,7 @@ f707d88cba81b1fe547b2c60230bc7669879070d assets/exodus/models/item/gold_wire.jso
 9bc13091a1d3fcabe876d5480394394942c4da03 assets/exodus/models/item/raw_aluminum.json
 3851276e351b23cfc5d3c9ed8935be12de6ee8b4 assets/exodus/models/item/raw_nickel.json
 f13edb85b07cdf5ef2a3f5842de69a17c8e73b04 assets/exodus/models/item/raw_tin.json
+1afd636dfccfa66c3402d6f6c9f08b36d87abe46 assets/exodus/models/item/raw_uranium.json
 ad5b8c1c1cd1beb03f9eb6c0d6f73ecf7ba9b88e assets/exodus/models/item/redstone_coil.json
 788e26b28d5b2a3a38be785079be0feb0ac11f08 assets/exodus/models/item/rubber.json
 f349e9570819dd9945642a91d9a4369759a1a933 assets/exodus/models/item/silicon.json
@@ -33,3 +34,5 @@ f349e9570819dd9945642a91d9a4369759a1a933 assets/exodus/models/item/silicon.json
 bf06418870b43fcbb650525fde0c7657343cf707 assets/exodus/models/item/tin_gear.json
 bae980ee71aa048fcaa57fb1d0ac35a0bfa28de0 assets/exodus/models/item/tin_ingot.json
 77130954a0d19b342cb27882429a366c760673da assets/exodus/models/item/tree_sap.json
+e1c3adeed09f5e1cbeaec395b61681c875e7f555 assets/exodus/models/item/uranium.json
+49acd72ae531d30c5878fc8e36775f7baf1ad8e9 assets/exodus/models/item/uranium_dust.json

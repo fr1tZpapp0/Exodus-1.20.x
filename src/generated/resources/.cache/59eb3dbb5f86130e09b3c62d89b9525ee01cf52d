@@ -1,4 +1,4 @@
-// 1.20.1	2023-12-13T00:14:59.9224388	Loot Tables
+// 1.20.1	2023-12-13T23:10:03.4829565	Loot Tables
 6e2f6df32a0c9d200f260c8f046873e85b95ef28 data/exodus/loot_tables/blocks/advanced_energy_cell.json
 4289adc6d0b56072d8346c67fd2ccebd8685a9c5 data/exodus/loot_tables/blocks/aluminum_ore.json
 669ccb487dd5881ffb2d902d8e3c905ab63e80e6 data/exodus/loot_tables/blocks/basic_energy_cell.json
@@ -9,6 +9,7 @@ c13440ccc3159636ff6e7eb680a35290db3cec20 data/exodus/loot_tables/blocks/copper_c
 6a0bbfc674d54654e02c67f5cab89c506e5a65d4 data/exodus/loot_tables/blocks/deepslate_lithium_ore.json
 cea4b015b2f82cb8340ccaedada211de96941b86 data/exodus/loot_tables/blocks/deepslate_nickel_ore.json
 08b9077cf8d01570a4d744d33090fc82c035ca05 data/exodus/loot_tables/blocks/deepslate_tin_ore.json
+63a591f16bffb921bf99b65aa6be5c5dc2092743 data/exodus/loot_tables/blocks/deepslate_uranium_ore.json
 56f3c14d83686200bab9dcfaf061856cb74fa16b data/exodus/loot_tables/blocks/diamond_cable.json
 24687f2cc7c764e8c5f08e54a7c2d356f3c078d7 data/exodus/loot_tables/blocks/gold_cable.json
 ada51e46fe3077384f55a82840317247c1032ee5 data/exodus/loot_tables/blocks/lithium_ore.json
@@ -20,3 +21,4 @@ c324303a604dd532eab69b22cbd333e279e88946 data/exodus/loot_tables/blocks/pulveriz
 af34a569e69faa5f2b2d5c80b79a11a712cba2a5 data/exodus/loot_tables/blocks/redstone_furnace.json
 7efb469c056c20c4a271fd6c868baf26cef3f6a6 data/exodus/loot_tables/blocks/solar_panel.json
 08a6ecf54446f4761ebb2b4dbdf9dff6113e2930 data/exodus/loot_tables/blocks/tin_ore.json
+d5b497bf8d1e1105ae33693ba5a88cb8bfdef43d data/exodus/loot_tables/blocks/uranium_ore.json
