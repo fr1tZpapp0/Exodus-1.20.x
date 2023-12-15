@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:golden_axe"
+    },
+    "H": {
+      "item": "minecraft:golden_shovel"
+    },
+    "P": {
+      "item": "minecraft:golden_pickaxe"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "APH",
+    " S ",
+    " S "
+  ],
+  "result": {
+    "item": "exodus:gold_paxel"
+  },
+  "show_notification": true
+}

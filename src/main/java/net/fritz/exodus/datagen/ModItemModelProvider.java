@@ -53,6 +53,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.FUSE);
         simpleItem(ModItems.REDSTONE_COIL);
         simpleItem(ModItems.CAPACITOR);
+        simpleItem(ModItems.STEEL_PLATE);
 
         simpleItem(ModItems.COPPER_WIRE);
         simpleItem(ModItems.GOLD_WIRE);
@@ -61,6 +62,22 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.BASIC_BATTERY);
         simpleItem(ModItems.MEDIUM_BATTERY);
         simpleItem(ModItems.ADVANCED_BATTERY);
+
+
+        handheldItem(ModItems.STEEL_SWORD);
+        handheldItem(ModItems.STEEL_PICKAXE);
+        handheldItem(ModItems.STEEL_SHOVEL);
+        handheldItem(ModItems.STEEL_AXE);
+        handheldItem(ModItems.STEEL_HOE);
+        handheldItem(ModItems.STEEL_PAXEL);
+        handheldItem(ModItems.STEEL_HAMMER);
+
+
+        handheldItem(ModItems.IRON_PAXEL);
+        handheldItem(ModItems.GOLD_PAXEL);
+        handheldItem(ModItems.DIAMOND_PAXEL);
+        handheldItem(ModItems.NETHERITE_PAXEL);
+
 
     }
 

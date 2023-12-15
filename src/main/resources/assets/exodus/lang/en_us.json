@@ -22,6 +22,7 @@
   "item.exodus.steel_ingot": "Steel Ingot",
   "item.exodus.tree_sap": "Tree Sap",
   "item.exodus.capacitor": "Capacitor",
+  "item.exodus.steel_plate": "Steel Plate",
 
 
   "item.exodus.iron_dust": "Iron Dust",
@@ -36,6 +37,22 @@
   "item.exodus.basic_battery": "Basic Battery",
   "item.exodus.medium_battery": "Medium Battery",
   "item.exodus.advanced_battery": "Advanced Battery",
+
+
+  "item.exodus.steel_sword": "Steel Sword",
+  "item.exodus.steel_pickaxe": "Steel Pickaxe",
+  "item.exodus.steel_shovel": "Steel Shovel",
+  "item.exodus.steel_axe": "Steel Axe",
+  "item.exodus.steel_hoe": "Steel Hoe",
+  "item.exodus.steel_paxel": "Steel Paxel",
+  "item.exodus.steel_hammer": "Steel Hammer",
+
+  "item.exodus.iron_paxel": "Iron Paxel",
+  "item.exodus.gold_paxel": "Gold Paxel",
+  "item.exodus.diamond_paxel": "Diamond Paxel",
+  "item.exodus.netherite_paxel": "Netherite Paxel",
+
+
 
   "item.exodus.redstone_coil": "Redstone Coil",
   "item.exodus.copper_wire": "Copper Wire",

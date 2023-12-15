@@ -1,4 +1,4 @@
-// 1.20.1	2023-12-13T23:02:07.012472	Item Models: exodus
+// 1.20.1	2023-12-15T08:00:45.4085483	Item Models: exodus
 e5f40082bdab44a3db9b951e9cedff5bce595865 assets/exodus/models/item/advanced_battery.json
 1b585a31f4aad1dca1b6066207b1ee4eb90ada9b assets/exodus/models/item/aluminum_dust.json
 60847c9fe0ffee8f35ddaff1d705d6a5c9c199bb assets/exodus/models/item/aluminum_ingot.json
@@ -9,16 +9,20 @@ f4a6268b156298fed6d25aa4102bd3f4c5f0a9da assets/exodus/models/item/capacitor.jso
 e5b60445150ed43fa8a4c8cdd0a03ba3180fe497 assets/exodus/models/item/copper_dust.json
 56d7e4e069bd3263c5b0a71cde8b11f2bcc208ec assets/exodus/models/item/copper_gear.json
 305291797772772545323c4b6e854324956fc4e9 assets/exodus/models/item/copper_wire.json
+a0c15fb577d8574238e4172b4f25dc0c3df628fd assets/exodus/models/item/diamond_paxel.json
 04beabad6d7207244ac7474b2c855c36d7fa244f assets/exodus/models/item/diamond_wire.json
 0830bcc89aec0a87acfdeb19790eca53b662243d assets/exodus/models/item/fuse.json
 291135ff7d38c1cbbe897b66e805d3d4881810d3 assets/exodus/models/item/gold_dust.json
 4e218a76d225c05e9d54b5e34af19b4d917fccf7 assets/exodus/models/item/gold_gear.json
+7958d66fbc0e746fcf4e2716b282fd47f8a4f5a2 assets/exodus/models/item/gold_paxel.json
 f707d88cba81b1fe547b2c60230bc7669879070d assets/exodus/models/item/gold_wire.json
 1f6031b79dd80c818bb667a7de3712a04797b050 assets/exodus/models/item/industrial_diamond.json
 013aaa389d54442a487af62031dcc49a653f6d0e assets/exodus/models/item/iron_dust.json
 710a5e2d003e1b633d3f426ded6374fd40b76c53 assets/exodus/models/item/iron_gear.json
+10eb09385e0fb039e2fd845c42027ff3f0e2bbd1 assets/exodus/models/item/iron_paxel.json
 2c276380cf558df2cf4b7835d6ff2a1faba92c78 assets/exodus/models/item/lithium.json
 112f619346a2987b6fbc5591a6a4ec510fa2c1af assets/exodus/models/item/medium_battery.json
+5b85ee0a06b36a1ecb5d5c289122e71413e20f36 assets/exodus/models/item/netherite_paxel.json
 549d9a17bf2776ac32d5db01c6f3846ca6132cb4 assets/exodus/models/item/nickel_dust.json
 1876c48774f028fb5d799b6dfb28292795fab99c assets/exodus/models/item/nickel_ingot.json
 9bc13091a1d3fcabe876d5480394394942c4da03 assets/exodus/models/item/raw_aluminum.json
@@ -29,7 +33,15 @@ ad5b8c1c1cd1beb03f9eb6c0d6f73ecf7ba9b88e assets/exodus/models/item/redstone_coil
 788e26b28d5b2a3a38be785079be0feb0ac11f08 assets/exodus/models/item/rubber.json
 f349e9570819dd9945642a91d9a4369759a1a933 assets/exodus/models/item/silicon.json
 8be6675fa56b90e330bfebc1093551984f1995dc assets/exodus/models/item/solar_panel_item.json
+8c3bc96d914bcd0dc66149af261f30a0f8d5f558 assets/exodus/models/item/steel_axe.json
+544fb320dce157a968476db3bc683af07b799ac9 assets/exodus/models/item/steel_hammer.json
+4d6ad6c8136e35b238955d1b5457b6dd773cc006 assets/exodus/models/item/steel_hoe.json
 4a5d481eb41242535350af727550ceb2b3f37122 assets/exodus/models/item/steel_ingot.json
+a012543604703a1dff7edfa4abdf7e96088dde1d assets/exodus/models/item/steel_paxel.json
+db2c5e10981bf7ca727198ff1b08c4b75820d7e5 assets/exodus/models/item/steel_pickaxe.json
+1a19e0a2a86187eaac25180d95aa7a6068ac8b78 assets/exodus/models/item/steel_plate.json
+279af45dc9176c1ec84277a75d4d090d73b0f3af assets/exodus/models/item/steel_shovel.json
+037fc76478049a15338519f7c70610c80fcc85e9 assets/exodus/models/item/steel_sword.json
 26e2cc8e6e1910bfa1bf78d1ed87acc7ad8dc114 assets/exodus/models/item/tin_dust.json
 bf06418870b43fcbb650525fde0c7657343cf707 assets/exodus/models/item/tin_gear.json
 bae980ee71aa048fcaa57fb1d0ac35a0bfa28de0 assets/exodus/models/item/tin_ingot.json

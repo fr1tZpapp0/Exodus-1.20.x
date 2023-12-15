@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "exodus:steel_axe"
+    },
+    "H": {
+      "item": "exodus:steel_shovel"
+    },
+    "P": {
+      "item": "exodus:steel_pickaxe"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "APH",
+    " S ",
+    " S "
+  ],
+  "result": {
+    "item": "exodus:steel_paxel"
+  },
+  "show_notification": true
+}

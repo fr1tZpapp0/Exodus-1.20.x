@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:iron_axe"
+    },
+    "H": {
+      "item": "minecraft:iron_shovel"
+    },
+    "P": {
+      "item": "minecraft:iron_pickaxe"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "APH",
+    " S ",
+    " S "
+  ],
+  "result": {
+    "item": "exodus:iron_paxel"
+  },
+  "show_notification": true
+}

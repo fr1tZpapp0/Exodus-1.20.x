@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:netherite_axe"
+    },
+    "H": {
+      "item": "minecraft:netherite_shovel"
+    },
+    "P": {
+      "item": "minecraft:netherite_pickaxe"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "APH",
+    " S ",
+    " S "
+  ],
+  "result": {
+    "item": "exodus:netherite_paxel"
+  },
+  "show_notification": true
+}

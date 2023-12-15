@@ -2,6 +2,7 @@ package net.fritz.exodus.datagen;
 
 import net.fritz.exodus.Exodus;
 import net.fritz.exodus.block.ModBlocks;
+import net.fritz.exodus.tag.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
@@ -40,14 +41,25 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         ModBlocks.TIN_ORE.get(),
                         ModBlocks.NICKEL_ORE.get(),
                         ModBlocks.LITHIUM_ORE.get(),
-                        ModBlocks.URANIUM_ORE.get(),
 
                         ModBlocks.DEEPSLATE_ALUMINUM_ORE.get(),
                         ModBlocks.DEEPSLATE_LITHIUM_ORE.get(),
                         ModBlocks.DEEPSLATE_NICKEL_ORE.get(),
-                        ModBlocks.DEEPSLATE_TIN_ORE.get(),
+                        ModBlocks.DEEPSLATE_TIN_ORE.get()
+                );
+
+        this.tag(ModTags.Blocks.NEEDS_STEEL_TOOL)
+                .add(
+                        ModBlocks.URANIUM_ORE.get(),
                         ModBlocks.DEEPSLATE_URANIUM_ORE.get()
                 );
+
+
+        this.tag(ModTags.Blocks.PAXEL_MINEABLE)
+                .addTag(BlockTags.MINEABLE_WITH_PICKAXE)
+                .addTag(BlockTags.MINEABLE_WITH_AXE)
+                .addTag(BlockTags.MINEABLE_WITH_SHOVEL);
+
 
     }
 

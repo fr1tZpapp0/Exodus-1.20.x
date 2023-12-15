@@ -11,14 +11,15 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.BlockHitResult;
 import org.jetbrains.annotations.Nullable;
 
-public class RedstoneFurnace extends HorizontalDirectionalBlock {
-
-    public RedstoneFurnace(Properties pProperties) {
-        super(pProperties);
+public class RedstoneFurnace extends Block {
+    public RedstoneFurnace(Properties p_52591_) {
+        super(p_52591_);
     }
+
 
     @Override
     public InteractionResult use(BlockState pState, Level pLevel, BlockPos pPos, Player pPlayer, InteractionHand pHand, BlockHitResult pHit) {
         return super.use(pState, pLevel, pPos, pPlayer, pHand, pHit);
     }
+
 }

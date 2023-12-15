@@ -344,6 +344,123 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                         .of(ModItems.LITHIUM.get()).build())).save(pWriter);
 
 
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.STEEL_SWORD.get())
+                .pattern(" I ")
+                .pattern(" I ")
+                .pattern(" S ")
+                .define('I', ModItems.STEEL_INGOT.get())
+                .define('S', Items.STICK)
+                .unlockedBy("has_steel_ingot", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModItems.STEEL_INGOT.get()).build())).save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.STEEL_PICKAXE.get())
+                .pattern("III")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('I', ModItems.STEEL_INGOT.get())
+                .define('S', Items.STICK)
+                .unlockedBy("has_steel_ingot", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModItems.STEEL_INGOT.get()).build())).save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.STEEL_SHOVEL.get())
+                .pattern(" I ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('I', ModItems.STEEL_INGOT.get())
+                .define('S', Items.STICK)
+                .unlockedBy("has_steel_ingot", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModItems.STEEL_INGOT.get()).build())).save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.STEEL_AXE.get())
+                .pattern("II ")
+                .pattern("IS ")
+                .pattern(" S ")
+                .define('I', ModItems.STEEL_INGOT.get())
+                .define('S', Items.STICK)
+                .unlockedBy("has_steel_ingot", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModItems.STEEL_INGOT.get()).build())).save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.STEEL_HOE.get())
+                .pattern("II ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('I', ModItems.STEEL_INGOT.get())
+                .define('S', Items.STICK)
+                .unlockedBy("has_steel_ingot", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModItems.STEEL_INGOT.get()).build())).save(pWriter);
+
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.STEEL_HAMMER.get())
+                .pattern("III")
+                .pattern("ISI")
+                .pattern(" S ")
+                .define('I', ModItems.STEEL_INGOT.get())
+                .define('S', Items.STICK)
+                .unlockedBy("has_steel_ingot", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModItems.STEEL_INGOT.get()).build())).save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.STEEL_PAXEL.get())
+                .pattern("APH")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('A', ModItems.STEEL_AXE.get())
+                .define('P', ModItems.STEEL_PICKAXE.get())
+                .define('H', ModItems.STEEL_SHOVEL.get())
+                .define('S', Items.STICK)
+                .unlockedBy("has_steel_ingot", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModItems.STEEL_INGOT.get()).build())).save(pWriter);
+
+
+
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.IRON_PAXEL.get())
+                .pattern("APH")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('A', Items.IRON_AXE)
+                .define('P', Items.IRON_PICKAXE)
+                .define('H', Items.IRON_SHOVEL)
+                .define('S', Items.STICK)
+                .unlockedBy("has_iron_ingot", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.IRON_INGOT).build())).save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.GOLD_PAXEL.get())
+                .pattern("APH")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('A', Items.GOLDEN_AXE)
+                .define('P', Items.GOLDEN_PICKAXE)
+                .define('H', Items.GOLDEN_SHOVEL)
+                .define('S', Items.STICK)
+                .unlockedBy("has_gold_ingot", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.GOLD_INGOT).build())).save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.DIAMOND_PAXEL.get())
+                .pattern("APH")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('A', Items.DIAMOND_AXE)
+                .define('P', Items.DIAMOND_PICKAXE)
+                .define('H', Items.DIAMOND_SHOVEL)
+                .define('S', Items.STICK)
+                .unlockedBy("has_diamond", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.DIAMOND).build())).save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.NETHERITE_PAXEL.get())
+                .pattern("APH")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('A', Items.NETHERITE_AXE)
+                .define('P', Items.NETHERITE_PICKAXE)
+                .define('H', Items.NETHERITE_SHOVEL)
+                .define('S', Items.STICK)
+                .unlockedBy("has_netherite_ingot", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.NETHERITE_INGOT).build())).save(pWriter);
+
+
+
+
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.BRONZE_BLEND.get())
                 .requires(ModItems.TIN_INGOT.get()).requires(Items.COPPER_INGOT)
                 .unlockedBy("has_copper_ingot", inventoryTrigger(ItemPredicate.Builder.item()

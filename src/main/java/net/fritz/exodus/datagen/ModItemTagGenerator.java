@@ -1,6 +1,8 @@
 package net.fritz.exodus.datagen;
 
 import net.fritz.exodus.Exodus;
+import net.fritz.exodus.item.ModItems;
+import net.fritz.exodus.tag.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;
@@ -18,7 +20,11 @@ public class ModItemTagGenerator extends ItemTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider pProvider) {
-
+        this.tag(ModTags.Items.WIRES).add(
+                ModItems.COPPER_WIRE.get(),
+                ModItems.GOLD_WIRE.get(),
+                ModItems.DIAMOND_WIRE.get()
+        );
     }
 
     @Override

@@ -38,6 +38,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.SILICON.get());
                         output.accept(ModItems.INDUSTRIAL_DIAMOND.get());
                         output.accept(ModItems.LITHIUM.get());
+                        output.accept(ModItems.STEEL_PLATE.get());
 
                         output.accept(ModItems.ALUMINUM_DUST.get());
                         output.accept(ModItems.TIN_DUST.get());
@@ -64,6 +65,21 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.BASIC_BATTERY.get());
                         output.accept(ModItems.MEDIUM_BATTERY.get());
                         output.accept(ModItems.ADVANCED_BATTERY.get());
+
+
+                        output.accept(ModItems.STEEL_SWORD.get());
+                        output.accept(ModItems.STEEL_PICKAXE.get());
+                        output.accept(ModItems.STEEL_AXE.get());
+                        output.accept(ModItems.STEEL_SHOVEL.get());
+                        output.accept(ModItems.STEEL_HOE.get());
+                        output.accept(ModItems.STEEL_PAXEL.get());
+                        output.accept(ModItems.STEEL_HAMMER.get());
+
+                        output.accept(ModItems.IRON_PAXEL.get());
+                        output.accept(ModItems.GOLD_PAXEL.get());
+                        output.accept(ModItems.DIAMOND_PAXEL.get());
+                        output.accept(ModItems.NETHERITE_PAXEL.get());
+
 
                     }).build());
 

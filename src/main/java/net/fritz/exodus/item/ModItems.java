@@ -1,7 +1,9 @@
 package net.fritz.exodus.item;
 
 import net.fritz.exodus.Exodus;
-import net.minecraft.world.item.Item;
+import net.fritz.exodus.item.custom.HammerItem;
+import net.fritz.exodus.item.custom.PaxelItem;
+import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -84,6 +86,12 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
 
 
+    public static final RegistryObject<Item> STEEL_PLATE = ITEMS.register("steel_plate",
+            () -> new Item(new Item.Properties()));
+
+
+
+
     public static final RegistryObject<Item> TREE_SAP = ITEMS.register("tree_sap",
             () -> new Item(new Item.Properties()));
 
@@ -130,6 +138,46 @@ public class ModItems {
 
     public static final RegistryObject<Item> REDSTONE_COIL = ITEMS.register("redstone_coil",
             () -> new Item(new Item.Properties()));
+
+
+    public static final RegistryObject<Item> STEEL_SWORD = ITEMS.register("steel_sword",
+            () -> new SwordItem(ModToolTiers.STEEL, 2, 3, new Item.Properties().durability(556)));
+
+    public static final RegistryObject<Item> STEEL_PICKAXE = ITEMS.register("steel_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.STEEL, 1, 2, new Item.Properties().durability(556)));
+
+    public static final RegistryObject<Item> STEEL_SHOVEL = ITEMS.register("steel_shovel",
+            () -> new ShovelItem(ModToolTiers.STEEL, 1, 2, new Item.Properties().durability(556)));
+
+    public static final RegistryObject<Item> STEEL_AXE = ITEMS.register("steel_axe",
+            () -> new AxeItem(ModToolTiers.STEEL, 2, 1, new Item.Properties().durability(556)));
+
+    public static final RegistryObject<Item> STEEL_HOE = ITEMS.register("steel_hoe",
+            () -> new HoeItem(ModToolTiers.STEEL, 1, 2, new Item.Properties().durability(556)));
+
+    public static final RegistryObject<Item> STEEL_PAXEL = ITEMS.register("steel_paxel",
+            () -> new PaxelItem(ModToolTiers.STEEL, 1, 2, new Item.Properties().durability(556)));
+
+    public static final RegistryObject<Item> STEEL_HAMMER = ITEMS.register("steel_hammer",
+            () -> new HammerItem(ModToolTiers.STEEL, 2, 1, new Item.Properties().durability(556)));
+
+
+
+    public static final RegistryObject<Item> IRON_PAXEL = ITEMS.register("iron_paxel",
+            () -> new PaxelItem(Tiers.IRON, 1, 2, new Item.Properties().durability(250)));
+
+    public static final RegistryObject<Item> GOLD_PAXEL = ITEMS.register("gold_paxel",
+            () -> new PaxelItem(Tiers.GOLD, 1, 2, new Item.Properties().durability(32)));
+
+    public static final RegistryObject<Item> DIAMOND_PAXEL = ITEMS.register("diamond_paxel",
+            () -> new PaxelItem(Tiers.DIAMOND, 1, 2, new Item.Properties().durability(1561)));
+
+    public static final RegistryObject<Item> NETHERITE_PAXEL = ITEMS.register("netherite_paxel",
+            () -> new PaxelItem(Tiers.NETHERITE, 1, 2, new Item.Properties().durability(2031)));
+
+
+
+
 
 
 

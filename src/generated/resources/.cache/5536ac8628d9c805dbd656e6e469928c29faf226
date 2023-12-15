@@ -1,3 +1,5 @@
-// 1.20.1	2023-12-13T23:10:03.4839563	BLOCK TAGS
+// 1.20.1	2023-12-15T07:20:00.0246263	BLOCK TAGS
+82362cfbd1836db13c7e9d36c8712821e795ac55 data/exodus/tags/blocks/mineable/paxel.json
+7836416eba6cb3d24068d346652f1cf56e32b2e3 data/exodus/tags/blocks/needs_steel_tool.json
 1dbcef81eeda10356ebd7eb00b7be0646a4cf4f2 data/minecraft/tags/blocks/mineable/pickaxe.json
-1dbcef81eeda10356ebd7eb00b7be0646a4cf4f2 data/minecraft/tags/blocks/needs_iron_tool.json
+82256c860f62ad843a656bd43f4de0f3fc190a5e data/minecraft/tags/blocks/needs_iron_tool.json

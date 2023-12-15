@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "exodus:steel_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " I ",
+    " S ",
+    " S "
+  ],
+  "result": {
+    "item": "exodus:steel_shovel"
+  },
+  "show_notification": true
+}
